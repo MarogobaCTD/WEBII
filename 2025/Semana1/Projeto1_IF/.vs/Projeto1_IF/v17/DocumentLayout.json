@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbcategoriamedicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbcategoriamedicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbalimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +55,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TbProfissionaisController.cs",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
-              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Title": "TbCategoriaMedicamentosController.cs",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbCategoriaMedicamentosController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbCategoriaMedicamentosController.cs",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbCategoriaMedicamentosController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbCategoriaMedicamentosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:12:40.182Z",
+              "WhenOpened": "2025-09-14T16:45:20.335Z",
               "EditorCaption": ""
             },
             {
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Projeto1_IF\\Controllers\\TbAlimentosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T11:26:09.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T11:26:09.43Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Projeto1_IF\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T11:08:22.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T11:08:22.728Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Projeto1_IF\\Models\\db_IFContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T11:06:40.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T11:06:40.365Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "Projeto1_IF\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T10:29:12.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T10:29:12.35Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Projeto1_IF\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-11T23:32:29.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T23:32:29.245Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "Projeto1_IF\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T23:15:12.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T23:15:12.492Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "Projeto1_IF\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAPcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T11:08:37.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T11:08:37.842Z"
             },
             {
               "$type": "Document",
