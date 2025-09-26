@@ -1,7 +1,7 @@
 ﻿@model Projeto1_IF.Models.TbPaciente
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -93,20 +93,20 @@
                 <span asp-validation-for="Profissao" class="text-danger"></span>
             </div>
             <hr />
-            <div class="form-group form-check">
-                <input type="hidden" asp-for="FlgAtleta" value="false" />
-                <input asp-for="FlgAtleta" class="form-check-input" />
+            <div class="form-group">
                 <label asp-for="FlgAtleta" class="form-check-label"></label>
+                <select asp-for="FlgAtleta" asp-items="ViewBag.AtletaList" class="form-control">
+                    <option value="">Selecione...</option>
+                </select>
                 <span asp-validation-for="FlgAtleta" class="text-danger"></span>
             </div>
-            <br />
-            <div class="form-group form-check">
-                <input type="hidden" asp-for="FlgGestante" value="false" />
-                <input asp-for="FlgGestante" class="form-check-input" />
-                <label asp-for="FlgGestante" class="form-check-label"></label>
+            <div class="form-group">
+                <label asp-for="FlgGestante" class="control-label"></label>
+                <select asp-for="FlgGestante" asp-items="ViewBag.GestanteList" class="form-control">
+                    <option value="">Selecione...</option>
+                </select>
                 <span asp-validation-for="FlgGestante" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>

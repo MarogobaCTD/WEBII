@@ -65,12 +65,12 @@ namespace Projeto1_IF.Controllers
                 new SelectListItem { Value = "5", Text = "Indígena" },
                 new SelectListItem { Value = "9", Text = "Não Informada" }
             };
-            ViewBag.AtletalList = new List<SelectListItem>
+            ViewBag.AtletaList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }
             };
-            ViewBag.GestantelList = new List<SelectListItem>
+            ViewBag.GestanteList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }
@@ -101,7 +101,7 @@ namespace Projeto1_IF.Controllers
                     new SelectListItem { Value = "B", Text = "Não Binário" },
                     new SelectListItem { Value = "N", Text = "Não Informado" }
                 };
-                    ViewBag.EtniaList = new List<SelectListItem>
+                ViewBag.EtniaList = new List<SelectListItem>
                 {
                     new SelectListItem { Value = "1", Text = "Branca" },
                     new SelectListItem { Value = "2", Text = "Preta" },
@@ -110,12 +110,12 @@ namespace Projeto1_IF.Controllers
                     new SelectListItem { Value = "5", Text = "Indígena" },
                     new SelectListItem { Value = "9", Text = "Não Informada" }
                 };
-                ViewBag.AtletalList = new List<SelectListItem>
+                ViewBag.AtletaList = new List<SelectListItem>
                 {
                     new SelectListItem { Value = "true", Text = "Sim" },
                     new SelectListItem { Value = "false", Text = "Não" }
                 };
-                ViewBag.GestantelList = new List<SelectListItem>
+                ViewBag.GestanteList = new List<SelectListItem>
                 {
                     new SelectListItem { Value = "true", Text = "Sim" },
                     new SelectListItem { Value = "false", Text = "Não" }
@@ -163,12 +163,12 @@ namespace Projeto1_IF.Controllers
                 new SelectListItem { Value = "5", Text = "Indígena" },
                 new SelectListItem { Value = "9", Text = "Não Informada" }
             };
-            ViewBag.AtletalList = new List<SelectListItem>
+            ViewBag.AtletaList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }
             };
-            ViewBag.GestantelList = new List<SelectListItem>
+            ViewBag.GestanteList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }
@@ -227,12 +227,12 @@ namespace Projeto1_IF.Controllers
                 new SelectListItem { Value = "5", Text = "Indígena" },
                 new SelectListItem { Value = "9", Text = "Não Informada" }
             };
-            ViewBag.AtletalList = new List<SelectListItem>
+            ViewBag.AtletaList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }
             };
-            ViewBag.GestantelList = new List<SelectListItem>
+            ViewBag.GestanteList = new List<SelectListItem>
             {
                 new SelectListItem { Value = "true", Text = "Sim" },
                 new SelectListItem { Value = "false", Text = "Não" }

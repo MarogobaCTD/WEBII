@@ -70,9 +70,9 @@ public partial class TbPaciente
     [StringLength(30)]
     [Unicode(false)]
     public string Profissao { get; set; }
-
+    [Display(Name = "Atleta")]
     public bool? FlgAtleta { get; set; }
-
+    [Display(Name = "Gestante")]
     public bool? FlgGestante { get; set; }
 
     [ForeignKey("IdCidade")]

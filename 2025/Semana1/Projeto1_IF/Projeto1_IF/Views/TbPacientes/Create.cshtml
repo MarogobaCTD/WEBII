@@ -1,7 +1,7 @@
 ﻿@model Projeto1_IF.Models.TbPaciente
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -92,22 +92,20 @@
                 <span asp-validation-for="Profissao" class="text-danger"></span>
             </div>
             <hr/>            
-            <div class="form-group form-check">
-                <label asp-for="FlgAtleta" class="form-check-label">Atleta</label>
+            <div class="form-group">
+                <label asp-for="FlgAtleta" class="form-check-label"></label>
                 <select asp-for="FlgAtleta" asp-items="ViewBag.AtletaList" class="form-control">
                     <option value="">Selecione...</option>
                 </select>
                 <span asp-validation-for="FlgAtleta" class="text-danger"></span>
             </div>
-            <br />
             <div class="form-group">
-                <label asp-for="FlgGestante" class="control-label">Gestante</label>
+                <label asp-for="FlgGestante" class="control-label"></label>
                 <select asp-for="FlgGestante" asp-items="ViewBag.GestanteList" class="form-control">
                     <option value="">Selecione...</option>
                 </select>
-                <span asp-validation-for="FlgGestante" class="text-danger"></span>
+                <span asp-validation-for="FlgGestante" class="text-danger"></span>                                
             </div>
-            <br/>
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
