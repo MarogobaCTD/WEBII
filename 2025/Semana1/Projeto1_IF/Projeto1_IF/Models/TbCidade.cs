@@ -13,6 +13,7 @@ namespace Projeto1_IF.Models;
 public partial class TbCidade
 {
     [Key]
+    [Display(Name = "Cidade")]
     public int IdCidade { get; set; }
 
     public int? IdEstado { get; set; }
@@ -20,6 +21,7 @@ public partial class TbCidade
     [Column("nome")]
     [StringLength(100)]
     [Unicode(false)]
+    [Display(Name = "Cidade")]
     public string Nome { get; set; }
 
     [ForeignKey("IdEstado")]

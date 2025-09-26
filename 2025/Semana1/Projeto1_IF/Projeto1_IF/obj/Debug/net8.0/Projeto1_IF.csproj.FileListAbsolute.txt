@@ -253,6 +253,7 @@ D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Proj
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.MvcApplicationPartsAssemblyInfo.cache
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.RazorAssemblyInfo.cache
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.RazorAssemblyInfo.cs
+D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.sourcelink.json
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -270,4 +271,3 @@ D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\refi
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.pdb
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.genruntimeconfig.cache
 D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\ref\Projeto1_IF.dll
-D:\AulasPos_Web\WebII\2025\Semana1\Projeto1_IF\Projeto1_IF\obj\Debug\net8.0\Projeto1_IF.sourcelink.json

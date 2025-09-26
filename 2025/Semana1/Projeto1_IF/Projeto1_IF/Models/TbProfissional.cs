@@ -17,6 +17,7 @@ public partial class TbProfissional
     [Key]
     public int IdProfissional { get; set; }
 
+    [Display(Name ="Área de Atuação")]
     public int? IdTipoProfissional { get; set; }
 
     public int IdContrato { get; set; }
@@ -67,15 +68,7 @@ public partial class TbProfissional
     [Column("CEP")]
     [StringLength(10)]
     [Unicode(false)]
-    public string Cep { get; set; }
-
-    [StringLength(100)]
-    [Unicode(false)]
-    public string Cidade { get; set; }
-
-    [StringLength(2)]
-    [Unicode(false)]
-    public string Estado { get; set; }
+    public string Cep { get; set; }   
 
     [Column("DDD1")]
     [StringLength(2)]
