@@ -1,26 +1,28 @@
-﻿@model IEnumerable<Projeto1_IF.Models.TbProfissional>
+﻿@model IEnumerable<Projeto1_IF.Models.TbProfissionalDTO>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Profissional";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Profissionais</h1>
+@*Valida se o usuário poderá inserir outros Médicos ou Nutricionistas*@
+@if ((User.IsInRole("Medico") || User.IsInRole("Nutricionista")) && (!User.IsInRole("GerenteGeral") && 
+     !User.IsInRole("GerenteMedico") && !User.IsInRole("GerenteNutricionista")))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle">Cadastrar Profissional</i></a>
+    </p>
+}
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IdTipoProfissional)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdUser)
-            </th>
+        <tr>            
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomePlano)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Cpf)
@@ -30,6 +32,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Especialidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCidade)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Logradouro)
@@ -58,30 +63,20 @@
             <th>
                 @Html.DisplayNameFor(model => model.Salario)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdCidadeNavigation)
+            <th style="width: 250px;">
+                Ações   
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdContratoNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdTipoAcessoNavigation)
-            </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdTipoProfissional)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUser)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.NomePlano)
+            </th>
             <td>
                 @Html.DisplayFor(modelItem => item.Cpf)
             </td>
@@ -90,6 +85,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Especialidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCidade)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Logradouro)
@@ -118,21 +116,28 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Salario)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCidadeNavigation.IdCidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdContratoNavigation.IdContrato)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdTipoAcessoNavigation.Nome)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdProfissional">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdProfissional">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdProfissional">Delete</a>
+            <td class="text-center">
+                <div class="btn-group" role="group">
+                    <a asp-action="Edit" asp-route-id="@item.IdProfissional" class="btn btn-success btn-sm" title="Editar">
+                        <i class="bi bi-pencil"></i>
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.IdProfissional" class="btn btn-warning btn-sm" title="Detalhes">
+                        <i class="bi bi-eye"></i>
+                    </a>
+                    @*Validar a role do usuário para ver se tem permissão para excluir*@
+                    @if (User.IsInRole("GerenteGeral") || User.IsInRole("GerenteMedico") || User.IsInRole("GerenteNutricionista"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.IdProfissional" class="btn btn-danger btn-sm" title="Excluir">
+                            <i class="bi bi-x-circle"></i>
+                        </a>
+                    }
+                </div>               
             </td>
         </tr>
 }
     </tbody>
 </table>
+@*@if (Model.Count() > 1)
+{
+   <a asp-action="Delete" asp-route-id="@Model.First().IdProfissional" class="btn btn-primary"><i class="bi-alarm"></i>Delete</a>
+}*@

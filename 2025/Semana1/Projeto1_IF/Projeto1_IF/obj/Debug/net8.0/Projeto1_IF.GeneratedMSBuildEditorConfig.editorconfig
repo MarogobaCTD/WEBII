@@ -152,6 +152,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Areas/Identity/Pages/Account/RegisterMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlck1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Areas/Identity/Pages/Account/RegisterNutricionista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlck51dHJpY2lvbmlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -248,6 +256,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDYXRlZ29yaWFNZWRpY2FtZW50b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbContratoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDb250cmF0b2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbContratoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDb250cmF0b2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbContratoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDb250cmF0b2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbContratoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDb250cmF0b2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbContratoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJDb250cmF0b2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbMedicoPacientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJNZWRpY29QYWNpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbMedicoPacientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJNZWRpY29QYWNpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbMedicoPacientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJNZWRpY29QYWNpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbMedicoPacientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJNZWRpY29QYWNpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbMedicoPacientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJNZWRpY29QYWNpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPacientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQYWNpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -268,6 +316,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQYWNpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPlanos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQbGFub3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPlanos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQbGFub3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPlanos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQbGFub3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPlanos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQbGFub3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbPlanos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQbGFub3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbProfissionais/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQcm9maXNzaW9uYWlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -286,6 +354,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbProfissionais/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJQcm9maXNzaW9uYWlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoAcessos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvQWNlc3Nvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoAcessos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvQWNlc3Nvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoAcessos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvQWNlc3Nvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoAcessos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvQWNlc3Nvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoAcessos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvQWNlc3Nvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoProfissional/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvUHJvZmlzc2lvbmFsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoProfissional/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvUHJvZmlzc2lvbmFsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoProfissional/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvUHJvZmlzc2lvbmFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoProfissional/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvUHJvZmlzc2lvbmFsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/TbTipoProfissional/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJUaXBvUHJvZmlzc2lvbmFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AulasPos_Web/WebII/2025/Semana1/Projeto1_IF/Projeto1_IF/Views/_ViewImports.cshtml]

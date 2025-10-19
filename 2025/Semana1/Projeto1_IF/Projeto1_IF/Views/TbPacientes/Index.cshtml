@@ -1,14 +1,14 @@
-﻿@model IEnumerable<Projeto1_IF.Models.TbPaciente>
+﻿@model IEnumerable<Projeto1_IF.Models.TbPacienteDTO>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Pacientes";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Pacientes</h1>
 
 <p>
-    <a asp-action="Create">Cadastrar Paciente</a>
+    <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle">Cadastrar Paciente</i></a>
 </p>
 <table class="table">
     <thead>
@@ -53,15 +53,17 @@
                 @Html.DisplayNameFor(model => model.Profissao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FlgAtleta)
+                @Html.DisplayNameFor(model => model.Atleta)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FlgGestante)
+                @Html.DisplayNameFor(model => model.Gestante)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdCidadeNavigation.Nome)
+                @Html.DisplayNameFor(model => model.NomeCidade)
             </th>
-            <th></th>
+            <th style="width: 350px;">
+                Ações
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -107,18 +109,26 @@
                 @Html.DisplayFor(modelItem => item.Profissao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FlgAtleta)
+                @Html.DisplayFor(modelItem => item.Atleta)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FlgGestante)
+                @Html.DisplayFor(modelItem => item.Gestante)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdCidadeNavigation.Nome)
+                @Html.DisplayFor(modelItem => item.NomeCidade)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPaciente">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPaciente">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPaciente">Excluir</a>
+            <td class ="text-center">
+                <div class="btn-group" role="group">
+                    <a asp-action="Edit" asp-route-id="@item.IdPaciente" class="btn btn-success btn-sm" title="Editar">
+                        <i class="bi bi-pencil"></i>
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.IdPaciente" class="btn btn-warning btn-sm" title="Detalhes">
+                        <i class="bi bi-eye"></i>
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.IdPaciente" class="btn btn-danger btn-sm" title="Excluir">
+                        <i class="bi bi-x-circle"></i>
+                    </a>
+                </div>
             </td>
         </tr>
 }

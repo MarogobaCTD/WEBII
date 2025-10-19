@@ -1,14 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters.Xml;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projeto1_IF.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Projeto1_IF.Controllers
 {
+    [Authorize]
     public class TbPacientesController : Controller
     {
         private readonly db_IFContext _context;
@@ -18,10 +22,39 @@ namespace Projeto1_IF.Controllers
             _context = context;
         }
 
+        IQueryable<TbPacienteDTO> db_IFContext;
+
         // GET: TbPacientes
+
         public async Task<IActionResult> Index()
         {
-            var db_IFContext = _context.TbPaciente.Include(t => t.IdCidadeNavigation);
+             // REALIZA A BUSCA DE PACIENTES SOMENTE DO USUÁRIO 
+             db_IFContext = (from pac in _context.TbPaciente
+                             join medpac in _context.TbMedicoPaciente on pac.IdPaciente equals medpac.IdPaciente
+                             join cid in _context.TbCidade on pac.IdCidade equals cid.IdCidade
+                             where medpac.IdProfissional == BuscaProfissional()
+                             select new TbPacienteDTO
+                             {
+                                 IdPaciente = pac.IdPaciente,
+                                 Nome = pac.Nome,
+                                 Rg = pac.Rg,
+                                 Cpf = pac.Cpf,
+                                 DataNascimento = pac.DataNascimento,
+                                 NomeResponsavel = pac.NomeResponsavel,
+                                 Sexo = pac.Sexo,
+                                 Etnia = pac.Etnia,
+                                 Endereco = pac.Endereco,
+                                 Bairro = pac.Bairro,
+                                 TelResidencial = pac.TelResidencial,
+                                 TelComercial = pac.TelComercial,
+                                 TelCelular = pac.TelCelular,
+                                 Profissao = pac.Profissao,
+                                 Atleta = ((bool)pac.FlgAtleta ? "Sim" : "Não"),
+                                 Gestante =((bool)pac.FlgGestante ? "Sim" : "Não"),
+                                 NomeCidade = cid.Nome
+                             });
+
+            //var db_IFContext = _context.TbPaciente.Include(t => t.IdCidadeNavigation);
             return View(await db_IFContext.ToListAsync());
         }
 
@@ -83,7 +116,7 @@ namespace Projeto1_IF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nome,Rg,Cpf,DataNascimento,NomeResponsavel,Sexo,Etnia,Endereco,Bairro,IdCidade,TelResidencial,TelComercial,TelCelular,Profissao,FlgAtleta,FlgGestante")] TbPaciente tbPaciente)
+        public async Task<IActionResult> Create([Bind("Nome,Rg,Cpf,DataNascimento,NomeResponsavel,Sexo,Etnia,Endereco,Bairro,IdCidade,TelResidencial,TelComercial,TelCelular,Profissao,FlgAtleta,FlgGestante")] TbPaciente tbPaciente, [Bind("IdMedicoPaciente")] TbMedicoPaciente idMedicoPacienteNavigation)
         {
             try
             {
@@ -91,6 +124,13 @@ namespace Projeto1_IF.Controllers
                 {
                     _context.Add(tbPaciente);
                     await _context.SaveChangesAsync();
+
+                    idMedicoPacienteNavigation.IdProfissional = BuscaProfissional();
+                    idMedicoPacienteNavigation.IdPaciente = tbPaciente.IdPaciente;
+                    idMedicoPacienteNavigation.InformacaoResumida = "Inserido pelo sistema!";
+                    _context.Add(idMedicoPacienteNavigation);
+                    await _context.SaveChangesAsync();
+
                     return RedirectToAction(nameof(Index));
                 }
                 ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "Nome", tbPaciente.IdCidade);
@@ -129,6 +169,17 @@ namespace Projeto1_IF.Controllers
             }
            
             return View(tbPaciente);
+        }
+
+        public int BuscaProfissional()
+        {
+            // Pega o id do Usuário no Claims com as informações já repassada no User
+            var idUser = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            return _context.TbProfissional
+                   .Where(prof => prof.IdUser == idUser)
+                   .Select(prof => prof.IdProfissional)
+                   .FirstOrDefault();
         }
 
         // GET: TbPacientes/Edit/5

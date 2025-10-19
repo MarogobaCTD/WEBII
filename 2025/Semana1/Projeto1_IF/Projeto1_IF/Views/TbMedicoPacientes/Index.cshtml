@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Projeto1_IF.Models.TbMedicoPaciente>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.InformacaoResumida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPacienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProfissionalNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InformacaoResumida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPacienteNavigation.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdProfissionalNavigation.Bairro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdMedicoPaciente">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdMedicoPaciente">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdMedicoPaciente">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

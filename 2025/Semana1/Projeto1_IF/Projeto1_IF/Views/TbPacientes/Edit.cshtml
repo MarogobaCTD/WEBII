@@ -26,7 +26,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Cpf" class="control-label">CPF</label>
-                <input asp-for="Cpf" class="form-control" />
+                <input asp-for="Cpf" class="form-control"  />
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -108,14 +108,13 @@
                 <span asp-validation-for="FlgGestante" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" /> | 
+                <a asp-action="Index" class="btn btn-dark btn-sm" title="Voltar">
+                    <i class="bi bi-arrow-left-circle"></i>Voltar
+                </a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Voltar para Lista</a>
 </div>
 
 @section Scripts {

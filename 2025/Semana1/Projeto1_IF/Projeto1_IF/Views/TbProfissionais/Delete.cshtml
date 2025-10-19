@@ -1,4 +1,5 @@
-﻿@model Projeto1_IF.Models.TbProfissional
+﻿@*Alterei para um DTO específico para ter informações sobre a exclusão com pacientes*@
+@model Projeto1_IF.Models.TbProfissionalDTO 
 
 @{
     ViewData["Title"] = "Excluir";
@@ -6,10 +7,10 @@
 }
 
 <h1>Delete</h1>
-
+@*Incluída a informação de Exclusão dos Pacientes também ao excluir o Profissional*@
+<h3 class="text-danger">@Html.DisplayFor(model => model.Mensagem)</h3>
 <h3>Você tem certeza que deseja excluir?</h3>
 <div>
-    <h4>TbProfissional</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -84,22 +85,23 @@
             @Html.DisplayFor(model => model.Salario)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdCidadeNavigation.Nome)
+            @Html.DisplayNameFor(model => model.NomeCidade)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdCidadeNavigation.Nome) / @Html.DisplayFor(model => model.IdCidadeNavigation.IdEstadoNavigation.Uf)
+            @Html.DisplayFor(model => model.NomeCidade) / @Html.DisplayFor(model => model.NomeUF)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdContratoNavigation.IdPlanoNavigation.Nome)
+            @Html.DisplayNameFor(model => model.NomePlano)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdContratoNavigation.IdPlanoNavigation.Nome)
+            @Html.DisplayFor(model => model.NomePlano)
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdProfissional" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Lista de Profissionais</a>
+        <a asp-action="Index" class="btn btn-dark btn-sm" title="Voltar"><i class="bi bi-arrow-left-circle"></i>Voltar</a>
     </form>
+    
 </div>

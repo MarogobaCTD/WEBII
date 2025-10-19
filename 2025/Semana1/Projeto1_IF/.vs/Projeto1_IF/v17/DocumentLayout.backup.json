@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\models\\tbmedicopacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbmedicopacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbprofissionaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbpacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbpacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\models\\tbpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\models\\tbcidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbcidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\models\\tbprofissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\models\\tbprofissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbpacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\areas\\identity\\pages\\account\\registermedico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\areas\\identity\\pages\\account\\registermedico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbpacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbpacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\tbprofissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\tbprofissionais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|d:\\aulaspos_web\\webii\\2025\\semana1\\projeto1_if\\projeto1_if\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47D3EBDD-5A72-4A07-9704-28A0F1441CE3}|Projeto1_IF\\Projeto1_IF.csproj|solutionrelative:projeto1_if\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,126 +66,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TbMedicoPacienteDTO.cs",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbMedicoPacienteDTO.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbMedicoPacienteDTO.cs",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbMedicoPacienteDTO.cs",
+              "RelativeToolTip": "Projeto1_IF\\Models\\TbMedicoPacienteDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T21:37:03.72Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TbCidade.cs",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbCidade.cs",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbCidade.cs",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbCidade.cs",
-              "RelativeToolTip": "Projeto1_IF\\Models\\TbCidade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:35:27.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TbProfissional.cs",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbProfissional.cs",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbProfissional.cs",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbProfissional.cs",
-              "RelativeToolTip": "Projeto1_IF\\Models\\TbProfissional.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:35:13.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TbPaciente.cs",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbPaciente.cs",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Models\\TbPaciente.cs",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Models\\TbPaciente.cs",
-              "RelativeToolTip": "Projeto1_IF\\Models\\TbPaciente.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:34:51.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "TbPacientesController.cs",
               "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbPacientesController.cs",
               "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbPacientesController.cs",
               "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbPacientesController.cs",
               "RelativeToolTip": "Projeto1_IF\\Controllers\\TbPacientesController.cs",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAAwOoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAwBAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T22:18:46.472Z",
+              "WhenOpened": "2025-10-19T20:28:21.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
-              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T01:09:46.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
-              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T01:09:39.124Z",
+              "DocumentIndex": 2,
+              "Title": "TbProfissionaisController.cs",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "RelativeToolTip": "Projeto1_IF\\Controllers\\TbProfissionaisController.cs",
+              "ViewState": "AgIAAG4BAAAAAAAAAAAiwIcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:28:21.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
               "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
               "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T01:09:33.058Z",
+              "WhenOpened": "2025-10-19T21:29:03.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Delete.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Delete.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:28:49.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:28:47.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
               "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
               "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Edit.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGAAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T01:09:41.828Z",
+              "WhenOpened": "2025-10-19T21:28:27.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
-              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
-              "RelativeToolTip": "Projeto1_IF\\Views\\TbPacientes\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAGsAAAASAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T22:34:11.289Z",
+              "WhenOpened": "2025-10-19T21:28:23.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterMedico.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:23:49.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Create.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Create.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Create.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:23:26.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\TbProfissionais\\Index.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\TbProfissionais\\Index.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\TbProfissionais\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHgAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T20:46:02.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T20:26:18.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T20:25:50.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\AulasPos_Web\\WebII\\2025\\Semana1\\Projeto1_IF\\Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Projeto1_IF\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T00:58:50.82Z",
               "EditorCaption": ""
             }
           ]
