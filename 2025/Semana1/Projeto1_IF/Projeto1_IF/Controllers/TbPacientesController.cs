@@ -330,6 +330,17 @@ namespace Projeto1_IF.Controllers
 
             try
             {
+                var tbMedicoPaciente = BuscaPacientes(tbPaciente.IdPaciente);
+
+                if (tbMedicoPaciente.Count() > 0)
+                {
+                    foreach (var item in tbMedicoPaciente)
+                    {
+                        _context.TbMedicoPaciente.Remove(item.tbMedicoPaciente);
+                        await _context.SaveChangesAsync();
+                    }                   
+                }
+
                 _context.TbPaciente.Remove(tbPaciente);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -346,6 +357,20 @@ namespace Projeto1_IF.Controllers
         private bool TbPacienteExists(int id)
         {
             return _context.TbPaciente.Any(e => e.IdPaciente == id);
+        }
+
+        // METODO PARA BUSCAR OS PACIENTES PARA DEPOIS REALIZAR A EXCLUSÃO
+        public IQueryable<TbMedicoPacienteDTO> BuscaPacientes(int id)
+        {
+            return (from pac in _context.TbPaciente
+                    join medpac in _context.TbMedicoPaciente on pac.IdPaciente equals medpac.IdPaciente
+                    join cid in _context.TbCidade on pac.IdCidade equals cid.IdCidade
+                    where medpac.IdPaciente == id
+                    select new TbMedicoPacienteDTO
+                    {
+                        tbPaciente = pac,
+                        tbMedicoPaciente = medpac
+                    });
         }
     }
 }

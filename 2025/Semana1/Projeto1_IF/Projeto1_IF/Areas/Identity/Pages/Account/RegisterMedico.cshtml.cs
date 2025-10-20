@@ -121,7 +121,6 @@ namespace Projeto1_IF.Areas.Identity.Pages.Account
                     .ToList();            
         }
 
-
         public async Task OnGetAsync(string returnUrl = null)
         {
             // BUSCAR OS PLANOS CONFORME O CADASTRO DE MÉDICO

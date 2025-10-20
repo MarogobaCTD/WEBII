@@ -417,7 +417,7 @@ namespace Projeto1_IF.Controllers
                     foreach (var item in tbPacientes)
                     {
 
-                        //var tbMedicoPaciente = _context.TbMedicoPaciente.Find(item.IdMedicoPaciente);
+                        //EXCLUI A LIGACAO ENTRE AS TABELAS
                         _context.TbMedicoPaciente.Remove(item.tbMedicoPaciente);
                         await _context.SaveChangesAsync();
 
